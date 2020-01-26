@@ -1,0 +1,149 @@
+/* ********************tag CSS ************** */
+
+body{
+    margin: 0;
+    background-color: teal;
+    text-align: center;
+
+}
+h1{
+    margin-top: 0;
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size:70px;
+    color: #66BFBF;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    height: 15px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+} 
+hr{
+    width: 88%;
+}
+
+header p{
+    display: inline;
+    position: absolute;
+    right: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+/* ********************CLASS CSS ************** */
+.special-char{
+    text-decoration: underline;
+}
+.top-container{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.middle-container{
+    color: white;
+    font-family: 'Bad Script', cursive;
+}
+
+.middle-container h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    color: #7fcd91;
+
+}
+.middle-container h3 {
+    font-family: 'Sacramento', cursive;
+    color: #7fcd91;
+    font-size: 2.5rem;
+
+}
+
+.middle-container p{
+    
+    font-size: 1em;
+}
+
+.top-cloud{
+    position: relative;
+    left: 300px;;
+}
+.bottom-cloud{
+    position: absolute;
+}
+
+#info-dvndra{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.4rem;
+    margin-top:0px;
+    color: #66BFBF;
+    font-weight: normal;
+}
+#myimage{
+    widows: 300px;
+    height: 300px;
+    margin-top:50px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+.footer-link{
+    font-size: 2.2rem;
+    font-family: 'Amatic SC', cursive;
+    color:goldenrod;
+    padding-left: 10px;
+}
+
+
+.contact-me {
+    margin-bottom: 30px;
+}
+.contact-me hr{
+    width: 50%;
+    margin-top:14px;
+}
+
+
+.btn{
+    padding:10px;
+    background-color: turquoise;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: fantasy;
+    color: white;
+}
+
+
+
+
+/* .first{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.second{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;    
+    position: absolute;
+
+}
+.third{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;;
+   
+} */

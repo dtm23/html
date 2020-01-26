@@ -1,106 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Advanced HTML</title>
+    <title>Devendra's web</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    <header>
-        <table cellspacing="20">
-            <thead>
-                <th><a href="home.html">Home</a></th>
+    <!-- <header>
+       <!-- 
+           to be completed at the end ( feature that allow to login and create or edit blog )
+    </header> -->
+    <div class="top-container">
+        <img class="top-cloud" src="cloud.png" alt="cloud">
+        <h1>I'm Devendra</h1>
+        <p id="info-dvndra">a <span class="special-char">Web</span> Developer.</p>
+        <img class="bottom-cloud" src="cloud.png" alt="cloud">
+        <img src="mountain.png" alt="mountain">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img id="myimage" src="student.png" alt="Devendra's img">
+          <h2>Namaste!</h2>
+          <p id="intro">My name is Devendra. I enjoy building website & backend coding to make a secure and user friendly website.</p>
+        </div> 
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="" src="computer.png" alt="">
+            <h3>Computer Science Student </h3>
+            <p>My interest in web development, encourage me to learn skills like JavaScript, PHP & MySQL and other essential skills to be a professional web developer.</p>
+          </div>
+          <div class="skill-row">
+            <img class="" src="chillies.png" alt="">
+            <h3>If its not spicy im not eating</h3>
+            <p>I enjoy foods, and like to watch Mark Wien's foods show on Youtube.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you like my website, and want to be in touch</h3>
+          <p>you may contact me by email on clicking contact me or by social site at the bottom.</p>
+          <a class="btn" href="mailto:everst.dvndra@email.com">Contact Me</a>
+          <hr>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="#">Website</a>
+        <p> © 2020 Devendra Thapa Magar (DTM).</p>
+    </div>
+   
+    <!-- <div class="first">
 
-                <th><a href="contact.html">Contact me</a></th>
-            </thead>
-        </table>
-    </header>
-    <H2>Dev List</H2>
-    <!-- Creating a Table -->
-    <table>
-        <thead>
-            <tr>
-                <th>S/N</th>
-                <th>Name</th>
-                <th>Address</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Devendra</td>
-                <td>KTM, Nepal 203233, 3222</td>
-            </tr>
+    </div>    
+    <div class="second">
 
-        </tbody>
-    </table>
-    <hr>
+    </div>
+    <div class="third">
 
-    <h3>Skills</h3>
-    <table cellspacing="5">
-        <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Node.js</td>
-            <td>⭐</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <table>
-        <thead>
-            <tr>
-                <th>S/N</th>
-                <th>Name</th>
-                <th>Address</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2</td>
-                <td>Puran</td>
-                <td>PKH, Nepal 39291, 3889</td>
-            </tr>
-
-        </tbody>
-    </table>
-    <hr>
-
-    <h3>Skills</h3>
-    <table cellspacing="5">
-        <tr>
-            <td>Javascript</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>SQL</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>React.js</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Git</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-
-    <hr>
+    </div> -->
 </body>
-
 </html>
+<!-- 
+    Favicon (Favourite Icon) 
+
+    This icon is displayed with title, 
+    You add the icon by using a link, and rel=icon
+    and assign the icon
+
+
+    #CSS Static and Relative Positioning
+        - even without the css, the HTML have a pre-defined CSS rules.
+        here are some rules to follow before you start changin css values to your will
+
+        1) Content is Everything
+        2) Order comes from codes
+        3) Children Sit on parents
+
+            #position: you can use position properties to relocate position of objects
+                Static, Relative, Absolute, Fixled
+
+            #Coordinates: you can cordinate the position of object by: TOP, BOTTOM, LEFT OR RIGHT
+
+            STATIC  - HTML default css values
+            Relative - relative alow you to move the object from your original location without chaning position of other objects
+            Absolute - it is relative to the parents, this mean - it move the object wihtin that relavate(inside) to the parent
+            Absolute - 
+
+
+
+
+-->
